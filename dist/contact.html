@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width,initial-scale=1">
+       <link rel="stylesheet" href="stylesheet.css">
+       <title>Contact</title>
+</head>
+
+<body class="clearfix">
+      <header>
+        <div class="hero-section low">
+              <div class="logo">
+                    <a href="index.html"><img src="media/logo.png" alt="logo"></a>
+        </div>
+        <div class="hero-section-text">
+                                <div class="hero-section-text">
+                                        <h1>Contact us</h1>
+                                </div>
+                           </div>
+                    </div>
+                    <nav class="topnav" id="myTopnav">
+                            <a href="index.html">Home</a>
+                            <a href="about.html">About</a>
+                            <a href="contact.html" class="active">Contact</a>
+                            <a href="product.html">Product</a>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                              <i class="fa fa-bars"></i>
+                            </a>
+                    </nav>
+        </header>
+
+        <div class="kontakt">
+             <h2> Ask us a question! </h2>
+        </div>
+
+        <div class="undertekst">
+             <p> Send us a messange for questions or inquiries. <br> We will do our best to respond to you as soon as possible, within 48 hours.
+        </p>
+    </div>
+
+        <div class="torleif">
+             <p> CEO: Torleif Madsen </p>
+             <p> Tel: +47 920 43 429 </p>
+             <p> Email: tkm@fjelltg.com </p>
+        </div>
+
+        <div class="kari">
+            <p> CTO: Kari Forthun </p>
+            <p> Tel: +47 938 44 295 </p>
+            <p> Email: kfo@fjelltg.com</p>
+        </div>
+
+        <div class="contactForm">
+                <form accept="/action_page.php">
+                       <label for="fname">First name</label><input type="text" id="fname" name="firstname" placeholder="Your name..">
+                       <label for="lname">Last Name</label>
+                       <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                       <label for="country">City</label>
+                       <select id="country" name="country">
+                       <option value="australia">Bergen</option>
+                       <option value="canada">Stavanger</option>
+                       <option value="usa">Oslo</option>
+         </select>
+
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px">
+                      </textarea>
+
+
+            <input type="submit" value="Submit">
+          </form>
+
+        </div>
+
+  <div class="gmap_canvas">
+  <iframe width="465" height="462" id="gmap_canvas" src="https://maps.google.com/maps?q=Bergen&t=&z=13&ie=UTF8&iwloc=&output=embed">
+    </iframe>
+</div>
+
+
+<footer>
+      © 2018 Compact Carbon Capture | All Rights Reserved
+    </footer>
+
+<script>
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+</body>
+</html>
